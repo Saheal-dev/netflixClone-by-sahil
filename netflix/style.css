@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&family=Poppins:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/backgroundimg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 80vh;
+    position: relative;
+    /* width: 100vw; */
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.69;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    height: 62px;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :first-child {
+
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seperation {
+    background-color: rgb(77, 77, 77);
+    height: 7px;
+    opacity: 0.44;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    /* padding: -2px 24px;
+    font-size: 20px;
+    border-radius: 4px; */
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-red-sem {
+    background-color: rgb(245, 45, 45);
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main input {
+    padding: 6px 51px;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgb(224, 218, 218);
+    border-radius: 3px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+    padding: 45px;
+
+}
+
+.secImg {
+    position: relative;
+    z-index: 10px;
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    right: 0;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 45px;
+    height: 130px;
+}
+
+.first>div :first-child {
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.first>div :nth-child(2) {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* same for second and third
+ */
+
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+    padding: 45px;
+
+}
+
+.secImg {
+    position: relative;
+    z-index: 10px;
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    right: 0;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 45px;
+    height: 130px;
+}
+
+.second>div :first-child {
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.second>div :nth-child(2) {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* third one */
+
+.third {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+    padding: 45px;
+
+}
+
+.thirdImg {
+    position: relative;
+    z-index: 10px;
+}
+
+.thirdImg img {
+    width: 37vw;
+    position: relative;
+    z-index: 10;
+    right: 0;
+    height: 318px;
+    top: 49px;
+
+}
+
+.thirdImg video {
+    position: absolute;
+    top: 78px;
+    right: 26px;
+    height: 143px;
+    width: 417px;
+
+}
+
+.third>div :first-child {
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.third>div :nth-child(2) {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* forth one */
+
+.forth {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+
+}
+
+.secImg {
+    position: relative;
+    z-index: 10px;
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    right: 0;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 45px;
+    height: 166px;
+}
+
+.forth>div :first-child {
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.forth>div :nth-child(2) {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.faq {
+    color: white;
+    background-color: rgb(8, 8, 8);
+    padding: 34px;
+    text-align: center;
+
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgb(46, 44, 44);
+    max-width: 72vw;
+    padding: 19px;
+    margin: 5px auto;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.read {
+    color: white;
+    text-align: center;
+}
+
+.imready {
+    justify-content: space-evenly;
+    padding: 15px;
+    gap: -3px;
+    display: flex;
+    margin: 11px 257px;
+}
+.faq :hover{
+    background-color: rgb(109, 109, 109);
+    transition: all 0.3s ease-in-out;
+}
+.faq svg{
+    filter: invert(1);
+}
+@media screen {
+   
+    
+}
